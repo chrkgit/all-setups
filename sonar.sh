@@ -11,5 +11,5 @@ su - sonar
 #run this on server manually
 cd /opt
 cd sonarqube-8.9.6.50800/bin/linux/
-./sonar.sh start
-./sonar status
+sh sonar.sh start
+sh sonar status
